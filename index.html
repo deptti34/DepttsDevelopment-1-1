@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Channel Urges Instead of Fighting Them</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            text-align: center; 
+            color: #333; 
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+        .video-container { 
+            margin: 40px 0; 
+            position: relative;
+        }
+        .cta-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .cta-button {
+            background: #000;
+            color: white;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #333;
+        }
+        .disclaimer {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 40px 0;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #555;
+        }
+        .disclaimer h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        .footer-links {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px 0;
+            border-top: 1px solid #eee;
+        }
+        .footer-links a {
+            color: #333;
+            text-decoration: underline;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WHAT HAPPENS WHEN YOU CHANNEL URGES INSTEAD OF FIGHTING THEM?</h1>
+        
+        <div class="video-container">
+            <!-- Your teaser video (loops) -->
+            <div id="teaser-video">
+                <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%">
+                    <iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/qi46jt?autoplay=1&loop=1&muted=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border-radius:8px;"></iframe>
+                </div>
+                
+                <!-- Play button overlay -->
+                <div onclick="playFullVideo()" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); cursor:pointer; z-index:10;">
+                    <div style="width:70px; height:70px; background:rgba(255,255,255,0.9); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+                        <div style="width:0; height:0; border-left:20px solid #333; border-top:12px solid transparent; border-bottom:12px solid transparent; margin-left:4px;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Full video (hidden initially) -->
+            <div id="full-video" style="display:none;">
+                <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%">
+                    <iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/2m5cz5?autoplay=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border-radius:8px;"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Book A Call Button -->
+        <div class="cta-section">
+            <a href="https://calendly.com/deptti34/discovery-call" target="_blank" class="cta-button">BOOK A CALL</a>
+        </div>
+
+        <!-- Results Disclaimer -->
+        <div class="disclaimer">
+            <h3>RESULTS DISCLAIMER</h3>
+            <p>The guys you see sharing their success stories with Elites? They're real people who put in real work. But here's the truth: Your results might be totally different. What affects your success depends on how committed you actually are, not just how committed you say you are. It depends on whether you follow the program or just buy it and let it sit there. Your current situation and background matter. How much time and effort you actually put in matters. Whether you take action or just consume content makes all the difference.</p>
+            
+            <p>We're not promising you'll quit porn in 90 days. We're not promising you'll quit at all. Some guys transform their lives completely. Others struggle for months. Some give up after a week. The success stories you see are the guys who did the work. They're not typical results, they's what's possible when someone goes all-in. Your success is 100% on you.</p>
+            
+            <p>We give you the tools, the system, and the support. But we can't do the work for you. We can't make you delete the apps. We can't make you show up to calls. We can't make you follow through when it gets hard. By joining Elites, you understand this isn't magic and requires real work. Results vary massively between people. We're not responsible if you don't put in the effort. No refunds if you don't like how hard it is.</p>
+            
+            <p>We'll give you everything you need to succeed. But success is still up to you. Ready to take responsibility for your results?</p>
+            
+            <p><strong>Last Updated: 8th August, 2025</strong></p>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <a href="https://depttsdevelopment.store/Privacy-Policy" target="_blank">Privacy Policy</a>
+            <a href="https://depttsdevelopment.store/Terms-of-service" target="_blank">Terms of Service</a>
+        </div>
+    </div>
+
+    <script>
+        function playFullVideo() {
+            document.getElementById('teaser-video').style.display = 'none';
+            document.getElementById('full-video').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
